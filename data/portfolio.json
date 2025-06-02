@@ -11,26 +11,26 @@
   "socials": [
     { "id": "1", "title": "Github", "link": "https://github.com/lillian0624" },
     { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/lillianyangli" },
-    { "id": "3", "title": "Email", "link": "nopeyangli@gmail.com" }
+    { "id": "3", "title": "Email", "link":"mailto:nopeyangli@gmail.com" }
   ],
   "projects": [
     {
-  "id": "1",
-  "title": "GPT-3 React Landing Page",
-  "description": "A modern, responsive landing page built with React, inspired by GPT-3 and OpenAI. Features advanced component structure, modular CSS, and a clean, professional UI for SaaS, AI, or tech startups.",
-  "technologies": ["React", "CSS Modules", "JavaScript", "HTML5"],
-  "imageSrc": "./images/project/P3_gpt3.png", 
-  "url": "https://gpt3-website-reactapp.netlify.app/"
-},
-{
-  "id": "4",
-  "title": "React App Weather",
-  "description": "A simple weather application built with React. Users can search for the current weather in any city using the OpenWeatherMap API. Displays temperature, weather description, and weather icon in a responsive interface.",
-  "technologies": ["React", "Axios", "OpenWeatherMap API", "Create React App", "Font Awesome"],
-  "imageSrc": "./images/project/P4_weather.png", 
-  "url": "https://weatherforecastor.netlify.app/"   
-},
-{
+      "id": "1",
+      "title": "GPT-3 React Landing Page",
+      "description": "A modern, responsive landing page built with React, inspired by GPT-3 and OpenAI. Features advanced component structure, modular CSS, and a clean, professional UI for SaaS, AI, or tech startups.",
+      "technologies": ["React", "CSS Modules", "JavaScript", "HTML5"],
+      "imageSrc": "./images/project/P3_gpt3.png",
+      "url": "https://gpt3-website-reactapp.netlify.app/"
+    },
+    {
+      "id": "4",
+      "title": "React App Weather",
+      "description": "A simple weather application built with React. Users can search for the current weather in any city using the OpenWeatherMap API. Displays temperature, weather description, and weather icon in a responsive interface.",
+      "technologies": ["React", "Axios", "OpenWeatherMap API", "Create React App", "Font Awesome"],
+      "imageSrc": "./images/project/P4_weather.png",
+      "url": "https://weatherforecastor.netlify.app/"
+    },
+    {
       "id": "3",
       "title": "Posts App",
       "description": "Firebase Posts App is a full-stack web application that allows users to create, read, update, and delete posts. It uses Firebase for backend services.",
@@ -38,16 +38,16 @@
       "imageSrc": "./images/project/P1_firebase.png",
       "url": "https://firebasepostapp.netlify.app/"
     },
-  {
-  "id": "2",
-  "title": "Connect 4 Game",
-  "description": "A web-based implementation of the classic Connect 4 game. Two players take turns dropping discs into a grid, aiming to connect four in a row. Built with React and modern web technologies.",
-  "technologies": ["React", "JavaScript", "HTML5", "CSS3", "Jest", "React Testing Library"],
-  "imageSrc": "./images/project/P2_connect4.png",
-  "url": "https://react-game-connect4.netlify.app/"
-}
-],
-   "services":[
+    {
+      "id": "2",
+      "title": "Connect 4 Game",
+      "description": "A web-based implementation of the classic Connect 4 game. Two players take turns dropping discs into a grid, aiming to connect four in a row. Built with React and modern web technologies.",
+      "technologies": ["React", "JavaScript", "HTML5", "CSS3", "Jest", "React Testing Library"],
+      "imageSrc": "./images/project/P2_connect4.png",
+      "url": "https://react-game-connect4.netlify.app/"
+    }
+  ],
+  "services": [
     {
       "id": "1",
       "title": "Web Design",
@@ -57,6 +57,16 @@
       "id": "2",
       "title": "Web Development",
       "description": "Building fast and scalable web applications."
+    },
+    {
+      "id": "3",
+      "title": "Application Development",
+      "description": "Custom application development tailored to your business needs."
+    },
+    {
+      "id": "4",
+      "title": "Desktop App Development",
+      "description": "Cross-platform desktop application development for Windows, macOS, and Linux."
     }
-  ]}
-  
+  ],
+ "aboutpara": "Hi, I’m Lillian — a full-stack developer passionate about turning ideas into real, working web apps. I love building clean, user-friendly interfaces with React and bringing them to life with Node.js and MongoDB. Based in Canberra, I’m always exploring new technologies, especially AI and creative tech.\n\nMy journey into tech blends a background in UI design and engineering with hands-on coding and problem-solving. I’m eager to join a team where I can keep learning, contribute my energy, and help build something meaningful. If you’re looking for someone who’s curious, dedicated, and ready for new challenges, let’s chat!"}

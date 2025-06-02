@@ -1,6 +1,6 @@
 # Lillian Yang's Portfolio
 
-![thumbnail](./images/portfolio-thumbnail.png)
+[thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
 Welcome to my personal portfolio website!  
 Here you can find my latest projects, skills, and ways to get in touch.
@@ -46,20 +46,6 @@ I enjoy building modern, responsive web applications and exploring new technolog
 - Open API
 - git
 - Next.js
-
----
-
-## How to Use
-
-1. Clone this repo
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
 
 ---
 

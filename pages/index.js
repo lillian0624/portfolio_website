@@ -129,11 +129,19 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0 flex justify-start">
+          <div className="w-full ">
+            <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+            {data.aboutpara.split("\n\n").map((para, idx) => (
+              <p
+                key={idx}
+                className="tablet:m-10 mt-2 text-xl laptop:text-3xl"
+                style={{ marginBottom: "1.5em", lineHeight: "1.8" }}
+              >
+                {para}
+              </p>
+            ))}
+          </div>
         </div>
         <Footer />
       </div>
