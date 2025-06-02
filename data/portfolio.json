@@ -1,26 +1,52 @@
 {
   "name": "Lillian Yang",
   "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Lillian Yang - curious",
-  "headerTaglineThree": "designer and developer",
-  "headerTaglineFour": "based in Canberra, Au.",
+  "headerTaglineTwo": "I'm Lillian Yang - passionate",
+  "headerTaglineThree": "full-stack developer",
+  "headerTaglineFour": "who loves coding and   team collaboration",
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
   "showResume": true,
   "socials": [
-    { "id": "1", "title": "Github", "link": "https://github.com/yourgithubusername" },
-    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/yourlinkedin/" },
-    { "id": "3", "title": "Email", "link": "mailto:your@email.com" }
+    { "id": "1", "title": "Github", "link": "https://github.com/lillian0624" },
+    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/lillianyangli" },
+    { "id": "3", "title": "Email", "link": "nopeyangli@gmail.com" }
   ],
   "projects": [
     {
-      "id": "1",
-      "title": "My Portfolio Website",
-      "description": "Personal website built with React.",
-      "imageSrc": "https://your-image-link.com/portfolio.png",
-      "url": "https://yourwebsite.com/"
-    }],
+  "id": "1",
+  "title": "GPT-3 React Landing Page",
+  "description": "A modern, responsive landing page built with React, inspired by GPT-3 and OpenAI. Features advanced component structure, modular CSS, and a clean, professional UI for SaaS, AI, or tech startups.",
+  "technologies": ["React", "CSS Modules", "JavaScript", "HTML5"],
+  "imageSrc": "./images/project/P3_gpt3.png", 
+  "url": "https://gpt3-website-reactapp.netlify.app/"
+},
+{
+  "id": "4",
+  "title": "React App Weather",
+  "description": "A simple weather application built with React. Users can search for the current weather in any city using the OpenWeatherMap API. Displays temperature, weather description, and weather icon in a responsive interface.",
+  "technologies": ["React", "Axios", "OpenWeatherMap API", "Create React App", "Font Awesome"],
+  "imageSrc": "./images/project/P4_weather.png", 
+  "url": "https://weatherforecastor.netlify.app/"   
+},
+{
+      "id": "3",
+      "title": "Posts App",
+      "description": "Firebase Posts App is a full-stack web application that allows users to create, read, update, and delete posts. It uses Firebase for backend services.",
+      "technologies": ["React", "Firebase", "Google Authentication"],
+      "imageSrc": "./images/project/P1_firebase.png",
+      "url": "https://firebasepostapp.netlify.app/"
+    },
+  {
+  "id": "2",
+  "title": "Connect 4 Game",
+  "description": "A web-based implementation of the classic Connect 4 game. Two players take turns dropping discs into a grid, aiming to connect four in a row. Built with React and modern web technologies.",
+  "technologies": ["React", "JavaScript", "HTML5", "CSS3", "Jest", "React Testing Library"],
+  "imageSrc": "./images/project/P2_connect4.png",
+  "url": "https://react-game-connect4.netlify.app/"
+}
+],
    "services":[
     {
       "id": "1",
@@ -32,27 +58,5 @@
       "title": "Web Development",
       "description": "Building fast and scalable web applications."
     }
-  ],
-  
-  "blogPosts": [
-    {
-      "id": "1",
-      "title": "Understanding React Hooks",
-      "description": "A deep dive into React Hooks and how to use them effectively.",
-      "imageSrc": "https://your-image-link.com/react-hooks.png",
-      "url": "https://yourblog.com/react-hooks"
-    },
-    {
-      "id": "2",
-      "title": "CSS Grid vs Flexbox",
-      "description": "Comparing CSS Grid and Flexbox for layout design.",
-      "imageSrc": "https://your-image-link.com/css-grid-flexbox.png",
-      "url": "https://yourblog.com/css-grid-flexbox"
-    }
-  ],
-  "skills": [
-    { "id": "1", "title": "JavaScript", "level": "Expert" },
-    { "id": "2", "title": "React", "level": "Advanced" },
-    { "id": "3", "title": "CSS", "level": "Advanced" },
-    { "id": "4", "title": "Node.js", "level": "Intermediate" }
   ]}
+  
